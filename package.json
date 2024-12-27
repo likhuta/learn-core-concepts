@@ -1,13 +1,13 @@
 {
   "name": "ts",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "live-server": "live-server --port=3003",
     "ts-w": "npx tsc -w",
-    "start": "concurrently --kill-others \"npm run live-server\" \"npm run ts-w\"",
-
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",

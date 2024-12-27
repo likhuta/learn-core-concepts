@@ -1,10 +1,10 @@
 {
-  "compilerOptions": {
-    "target": "ES6", // Целевой стандарт JavaScript
-    "module": "ES6", // Использовать модули ES6
-    "strict": true,  // Включить строгую проверку типов
-    "esModuleInterop": true, // Совместимость с CommonJS
-    "outDir": "./dist" // Папка для выходных файлов
-  },
-  "include": ["src/**/*", "src/index.ts"] // Файлы для обработки
-}
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "es6",
+      "target": "ES2016",
+      "allowJs": true,
+      "moduleResolution": "node"
+    }
+  }

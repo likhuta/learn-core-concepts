@@ -1,2 +1,3 @@
-const greeting: string = 'Hello, Webpack with TypeScript!';
-console.log(greeting);
+import {launchExampleSingleton} from './patterns';
+
+launchExampleSingleton();
