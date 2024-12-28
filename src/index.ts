@@ -1,3 +1,4 @@
-import {launchExampleSingleton} from './patterns';
+import launchPatterns from './patterns';
 
-launchExampleSingleton();
+
+launchPatterns()
